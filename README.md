@@ -20,7 +20,7 @@ Add the dependency:
 
 ```kotlin
 dependencies {
-    implementation("app.onesygnal:onesygnal-sdk:VERSION")
+    implementation("app.onesygnal:onesygnal-sdk:1.0.0")
 }
 ```
 
@@ -39,7 +39,7 @@ Add your API key to `AndroidManifest.xml`:
 ## Initialization
 
 ```kotlin
-import io.onesygnal.sdk.api.OneSygnal
+import app.onesygnal.sdk.api.OneSygnal
 
 OneSygnal.initialize(context) { success ->
     // SDK is ready to evaluate triggers
