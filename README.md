@@ -20,7 +20,7 @@ Add the dependency:
 
 ```kotlin
 dependencies {
-    implementation("app.onesygnal:onesygnal-sdk:1.0.0")
+    implementation("app.onesygnal:onesygnal-sdk:1.0.1")
 }
 ```
 
